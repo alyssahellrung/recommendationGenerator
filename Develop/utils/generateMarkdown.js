@@ -9,5 +9,7 @@ function generateMarkdown(data) {
   ${data.name}
   
   
-  `
+  `;
 }
+
+module.exports = generateMarkdown;
