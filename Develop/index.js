@@ -7,7 +7,7 @@ function init() {
     {
       type: "input",
       name: "introduction",
-      message: "Describe your professional role in one sentence or less."
+      message: "Describe your professional role in one sentence or less. Make sure to include the name of your workplace."
     },
     {
       type: "input",
@@ -17,7 +17,7 @@ function init() {
     {
       type: "input",
       name: "evaluation",
-      message: "Give an honest evaluation of the person you are recommending. Be sure to address their skills, accomplishments, ability to collaborate, ethics, and personality."
+      message: "Give a one-paragraph, honest evaluation of the person you are recommending. Be sure to address their skills, accomplishments, ability to collaborate, ethics, and personality."
     },
     {
       type: "input",
@@ -29,16 +29,36 @@ function init() {
       name: "rating",
       message: "What rating would you give this person from the choices below?",
       choices: [
-        "Highly recommended",
-        "Recommended",
-        "Recommended with some concerns",
-        "Not recommended"
+        "highly recommend",
+        "recommend",
+        "have some concerns but still recommend",
+        "do not recommended"
       ]
     },
     {
       type: "input",
       name: "name",
-      message: "What is your full name and professional title?"
+      message: "What is your full name?"
+    },
+    {
+      type: "input",
+      name: "title",
+      message: "What is your professional title or role?"
+    },
+    {
+      type: "input",
+      name: "recname",
+      message: "What is the full name of the person you are recommending?"
+    },
+    {
+      type: "list",
+      name: "pronoun",
+      message: "Which of the of the following pronouns does the person you are recommending go by?",
+      choices: [
+        "her",
+        "him",
+        "them"
+      ]
     }
 
   ]).then(function(data) {
@@ -48,7 +68,7 @@ function init() {
     if (err) {
       throw err;
     } else 
-    console.log("Success! You have a newly generated markdown file!");
+    console.log("Success! You have a newly generated markdown file called REC.md!");
   });  
   })
   .catch(function (err) {

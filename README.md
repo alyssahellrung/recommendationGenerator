@@ -31,13 +31,16 @@ fs
 2) Run the program by typing "node index.js" in the command line.    
 ![image]() 
 3) A series of questions will appear, one by one. They will ask you to input:  
-  --a description of your professional role    
+  --a description of your professional role and where you work    
   ![image]()  
   --how long you have known the person you are recommending and in what capacity      
   --an honest evaluation of their skills, accomplishments, ability to collaborate, etc.  
   --a summary of your evaluation of the person you are recomending  
-  --your choice out of four rating levels (from "highly recommended" down to "not recommended")    
-  --your full name and professional title  
+  --your choice out of four rating levels (from "highly recommend" down to "I do not recommend")    
+  --your full name  
+  --your professional title or role  
+  --the full name of the person you are recommending  
+  --what pronouns the recommendee uses 
   ![image]()  
 4) Once all of the questions are answered, you will see a success message, and a new file called "REC.md" will appear in your directory.   
 ![image]()  
