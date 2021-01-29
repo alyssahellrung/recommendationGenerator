@@ -38,7 +38,7 @@ function init() {
     {
       type: "input",
       name: "name",
-      message: "What is your full name?"
+      message: "What is your full name and professional title?"
     }
 
   ]).then(function(data) {
