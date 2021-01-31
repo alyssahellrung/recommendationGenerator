@@ -29,10 +29,8 @@ fs
 ## How to Use  
 1) Install Inquirer using npm install.  
 2) Run the program by typing "node index.js" in the command line.    
-![image]() 
 3) A series of questions will appear, one by one. They will ask you to input:  
   --a description of your professional role and where you work    
-  ![image]()  
   --how long you have known the person you are recommending and in what capacity      
   --an honest evaluation of their skills, accomplishments, ability to collaborate, etc.  
   --a summary of your evaluation of the person you are recomending  
@@ -40,12 +38,19 @@ fs
   --your full name  
   --your professional title or role  
   --the full name of the person you are recommending  
-  --what pronouns the recommendee uses 
-  ![image]()  
-4) Once all of the questions are answered, you will see a success message, and a new file called "REC.md" will appear in your directory.   
-![image]()  
-This file will include the information you entered, but with some language added and correct letter formatting.  
-![image]()    
+  --what pronouns the recommendee uses
+
+  ![image](./Develop/assets/shot1.png)
+      
+4) Once all of the questions are answered, you will see a success message, and a new file called "REC.md" will appear in your directory.  
+
+![image](./Develop/assets/shot2.png)
+
+![image](./Develop/assets/shot3.png)
+
+This file will include the information you entered, but with some language added and correct letter formatting.
+
+![image](./Develop/assets/shot4.png)    
   
 
 ## How I Made This    
@@ -56,6 +61,5 @@ Because I brought the generateMarkdown.js file over to index.js and assigned it 
 ## Link to GitHub Repo      
 https://github.com/alyssahellrung/recommendationGenerator  
 
-## Future Development Ideas  
---Style it out (make it look more like a letter)  
---Figure out a way to add a signature?   
+## Future Development Ideas   
+--Figure out a way to add a signature  
